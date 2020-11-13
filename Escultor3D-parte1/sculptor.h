@@ -41,15 +41,15 @@ protected:
    */
   Voxel ***v;
   /**
-   * @brief nx é a dimensão no eixo x.
+   * @brief nx é a dimensão de eixo x.
    */
   int nx;
   /**
-   * @brief ny é a dimensão no eixo y.
+   * @brief ny é a dimensão de eixo y.
    */
   int ny;
   /**
-   * @brief nz é a dimensão no eixo z.
+   * @brief nz é a dimensão de eixo z.
    */
   int nz;
   /**
@@ -71,9 +71,9 @@ protected:
 public:
   /**
    * @brief Sculptor é o construtor da classe.
-   * @param _nx é a dimensão no eixo x.
-   * @param _ny é a dimensão no eixo y.
-   * @param _nz é a dimensão no eixo z.
+   * @param _nx é a dimensão de eixo x.
+   * @param _ny é a dimensão de eixo y.
+   * @param _nz é a dimensão de eixo z.
    */
   Sculptor(int _nx, int _ny, int _nz);
   /**
@@ -82,7 +82,7 @@ public:
   ~Sculptor();
   /**
    * @brief setColor define a cor atual de desenho.
-   * @details As variaveis que armazenam a cor rgba podem assumir valores entre 0 e 1.
+   * @details As variáveis que armazenam a cor rgba devem assumir valores entre 0 e 1.
    * @param r é a dosagem de vermelho(red).
    * @param g é a dosagem de verde(green).
    * @param b é a dosagem de azul(blue).
@@ -105,58 +105,58 @@ public:
   void cutVoxel(int x, int y, int z);
   /**
    * @brief putBox ativa todos os voxels no intervalo \f$ x \in [x_0, x_1] \f$ , \f$ y \in [y_0, y_1] \f$, \f$ z \in [z_0, z_1] \f$ e atribui aos mesmos a cor atual de desenho.
-   * @param x0
-   * @param x1
-   * @param y0
-   * @param y1
-   * @param z0
-   * @param z1
+   * @param x0 é a posição inicial do intervalo de x.
+   * @param x1 é a posição final do intervalo de x.
+   * @param y0 é a posição inicial do intervalo de y.
+   * @param y1 é a posição final do intervalo de y.
+   * @param z0 é a posição inicial do intervalo de z.
+   * @param z1 é a posição final do intervalo de z.
    */
   void putBox(int x0, int x1, int y0, int y1, int z0, int z1);
   /**
    * @brief cutBox desativa todos os voxels no intervalo \f$ x \in [x_0, x_1] \f$ , \f$ y \in [y_0, y_1] \f$, \f$ z \in [z_0, z_1] \f$ e atribui aos mesmos a cor atual de desenho.
-   * @param x0
-   * @param x1
-   * @param y0
-   * @param y1
-   * @param z0
-   * @param z1
+   * @param x0 é a posição inicial do intervalo de x.
+   * @param x1 é a posição final do intervalo de x.
+   * @param y0 é a posição inicial do intervalo de y.
+   * @param y1 é a posição final do intervalo de y.
+   * @param z0 é a posição inicial do intervalo de z.
+   * @param z1 é a posição final do intervalo de z.
    */
   void cutBox(int x0, int x1, int y0, int y1, int z0, int z1);
   /**
    * @brief putSphere ativa todos os voxels que satisfazem à equação da esfera e atribui aos mesmos a cor atual de desenho \f$ (r, g, b, a) \f$.
-   * @param xcenter
-   * @param ycenter
-   * @param zcenter
-   * @param radius
+   * @param xcenter é o centro da esfera no eixo x.
+   * @param ycenter é o centro da esfera no eixo y.
+   * @param zcenter é o centro da esfera no eixo z.
+   * @param radius é o raio da esfera.
    */
   void putSphere(int xcenter, int ycenter, int zcenter, int radius);
   /**
    * @brief cutSphere desativa todos os voxels que satisfazem à equação da esfera.
-   * @param xcenter
-   * @param ycenter
-   * @param zcenter
-   * @param radius
+   * @param xcenter é o centro da esfera no eixo x.
+   * @param ycenter é o centro da esfera no eixo y.
+   * @param zcenter é o centro da esfera no eixo z.
+   * @param radius é o raio da esfera.
    */
   void cutSphere(int xcenter, int ycenter, int zcenter, int radius);
   /**
    * @brief putEllipsoid ativa todos os voxels que satisfazem à equação do elipsóide e atribui aos mesmos a cor atual de desenho.
-   * @param xcenter
-   * @param ycenter
-   * @param zcenter
-   * @param rx
-   * @param ry
-   * @param rz
+   * @param xcenter é o centro do elipsóide no eixo x.
+   * @param ycenter é o centro do elipsóide no eixo y.
+   * @param zcenter é o centro do elipsóide no eixo z.
+   * @param rx é o semieixo do elipsóide no eixo x.
+   * @param ry é o semieixo do elipsóide no eixo y.
+   * @param rz é o semieixo do elipsóide no eixo z.
    */
   void putEllipsoid(int xcenter, int ycenter, int zcenter, int rx, int ry, int rz);
   /**
    * @brief cutEllipsoid desativa todos os voxels que satisfazem à equação do elipsóide.
-   * @param xcenter
-   * @param ycenter
-   * @param zcenter
-   * @param rx
-   * @param ry
-   * @param rz
+   * @param xcenter é o centro do elipsóide no eixo x.
+   * @param ycenter é o centro do elipsóide no eixo y.
+   * @param zcenter é o centro do elipsóide no eixo z.
+   * @param rx é o semieixo do elipsóide no eixo x.
+   * @param ry é o semieixo do elipsóide no eixo y.
+   * @param rz é o semieixo do elipsóide no eixo z.
    */
   void cutEllipsoid(int xcenter, int ycenter, int zcenter, int rx, int ry, int rz);
   /**
