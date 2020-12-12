@@ -16,13 +16,25 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    color.cpp \
+    dialogdim.cpp \
+    dialogoff.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    plotter.cpp \
+    sculptor.cpp
 
 HEADERS += \
-    mainwindow.h
+    color.h \
+    dialogdim.h \
+    dialogoff.h \
+    mainwindow.h \
+    plotter.h \
+    sculptor.h
 
 FORMS += \
+    dialogdim.ui \
+    dialogoff.ui \
     mainwindow.ui
 
 # Default rules for deployment.
