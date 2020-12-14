@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['figurageometrica_2ecpp_85',['figurageometrica.cpp',['../figurageometrica_8cpp.html',1,'']]],
-  ['figurageometrica_2eh_86',['figurageometrica.h',['../figurageometrica_8h.html',1,'']]]
+  ['escultura_2etxt_85',['escultura.txt',['../escultura_8txt.html',1,'']]]
 ];

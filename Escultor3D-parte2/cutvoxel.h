@@ -11,9 +11,9 @@ class CutVoxel : public FiguraGeometrica{
 public:
     /**
      * @brief CutVoxel é o construtor da subclasse.
-     * @param x
-     * @param y
-     * @param z
+     * @param x é a posição x.
+     * @param y é a posição y.
+     * @param z é a posição z.
      */
     CutVoxel(int x, int y, int z);
     ~CutVoxel();

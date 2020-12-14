@@ -58,7 +58,7 @@ vector<FiguraGeometrica *> Interpretador::parse(string filename){
                     figs.push_back(new CutBox(x0, x1, y0, y1, z0, z1));
                 }else if(token.compare("putsphere") == 0){
                     ss >> x0 >> y0 >> z0 >> radius >> r >> g >> b >> a;
-                    figs.push_back(new PutSphere(x0, y0, z0, radius));
+                    figs.push_back(new PutSphere(x0, y0, z0, radius, r, g, b, a));
                 }else if(token.compare("cutsphere") == 0){
                     ss >> x0 >> y0 >> z0 >> radius;
                     figs.push_back(new CutSphere(x0, y0, z0, radius));

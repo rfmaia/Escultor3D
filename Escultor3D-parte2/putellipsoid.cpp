@@ -22,6 +22,7 @@ void PutEllipsoid::draw(Sculptor &t){
     // (x^2)/(a^2) + (y^2)/(b^2) + (z^2)/(c^2) = 1
     int x, y, z;
     double eq;
+    t.setColor(r, g, b, a);
     for(x = xcenter - rx; x <= xcenter + rx; x++){
         for(y = ycenter - ry; y <= ycenter + ry; y++){
             for(z = zcenter - rz; z <= zcenter + rz; z++){

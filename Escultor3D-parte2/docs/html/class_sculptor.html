@@ -80,7 +80,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>A Classe <a class="el" href="class_sculptor.html" title="A Classe Sculptor.">Sculptor</a>.  
+<p>A classe <a class="el" href="class_sculptor.html" title="A classe Sculptor serve para criar a escultura de voxel.">Sculptor</a> serve para criar a escultura de voxel.  
  <a href="class_sculptor.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="sculptor_8h_source.html">sculptor.h</a>&gt;</code></p>
@@ -88,19 +88,23 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a014e3ef5517bf0e9d9e14486b6ac6433"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sculptor.html#a014e3ef5517bf0e9d9e14486b6ac6433">Sculptor</a> (int _nx, int _ny, int _nz)</td></tr>
+<tr class="memdesc:a014e3ef5517bf0e9d9e14486b6ac6433"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_sculptor.html" title="A classe Sculptor serve para criar a escultura de voxel.">Sculptor</a> é o construtor da classe.  <a href="class_sculptor.html#a014e3ef5517bf0e9d9e14486b6ac6433">More...</a><br /></td></tr>
 <tr class="separator:a014e3ef5517bf0e9d9e14486b6ac6433"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f159bf97458326f16d2e238e11be7ff"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sculptor.html#a8f159bf97458326f16d2e238e11be7ff">~Sculptor</a> ()</td></tr>
+<tr class="memdesc:a8f159bf97458326f16d2e238e11be7ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">~Sculptor é o destrutor da classe.  <a href="class_sculptor.html#a8f159bf97458326f16d2e238e11be7ff">More...</a><br /></td></tr>
 <tr class="separator:a8f159bf97458326f16d2e238e11be7ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1d69da01379874b0dfd6454787cb562"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sculptor.html#af1d69da01379874b0dfd6454787cb562">setColor</a> (float <a class="el" href="class_sculptor.html#a3f5d2ec3b66d645019b8d81c810a1cd8">r</a>, float <a class="el" href="class_sculptor.html#a208c06af69a81a1568df4493868816f1">g</a>, float <a class="el" href="class_sculptor.html#a7aafd7305ea634252d8288b60536cd96">b</a>, float alpha)</td></tr>
+<tr class="memdesc:af1d69da01379874b0dfd6454787cb562"><td class="mdescLeft">&#160;</td><td class="mdescRight">setColor define a cor atual de desenho.  <a href="class_sculptor.html#af1d69da01379874b0dfd6454787cb562">More...</a><br /></td></tr>
 <tr class="separator:af1d69da01379874b0dfd6454787cb562"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4bdea3048b419d58e93074060eaa7b52"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sculptor.html#a4bdea3048b419d58e93074060eaa7b52">putVoxel</a> (int x, int y, int z)</td></tr>
+<tr class="memdesc:a4bdea3048b419d58e93074060eaa7b52"><td class="mdescLeft">&#160;</td><td class="mdescRight">putVoxel ativa o voxel na posição \( (x, y, z) \) (fazendo isOn = true) e atribui ao mesmo a cor atual de desenho.  <a href="class_sculptor.html#a4bdea3048b419d58e93074060eaa7b52">More...</a><br /></td></tr>
 <tr class="separator:a4bdea3048b419d58e93074060eaa7b52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9d714a35fc8ae16d06eb5df37c3493c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sculptor.html#ad9d714a35fc8ae16d06eb5df37c3493c">cutVoxel</a> (int x, int y, int z)</td></tr>
+<tr class="memdesc:ad9d714a35fc8ae16d06eb5df37c3493c"><td class="mdescLeft">&#160;</td><td class="mdescRight">cutVoxel desativa o voxel na posição \( (x, y, z) \) (fazendo isOn = false)  <a href="class_sculptor.html#ad9d714a35fc8ae16d06eb5df37c3493c">More...</a><br /></td></tr>
 <tr class="separator:ad9d714a35fc8ae16d06eb5df37c3493c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8ed61fc7cae10c4d7a895330fe5e309"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sculptor.html#aa8ed61fc7cae10c4d7a895330fe5e309">writeOFF</a> (char *filename)</td></tr>
+<tr class="memdesc:aa8ed61fc7cae10c4d7a895330fe5e309"><td class="mdescLeft">&#160;</td><td class="mdescRight">writeOFF grava a escultura no formato OFF no arquivo filename.  <a href="class_sculptor.html#aa8ed61fc7cae10c4d7a895330fe5e309">More...</a><br /></td></tr>
 <tr class="separator:aa8ed61fc7cae10c4d7a895330fe5e309"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8baf0ca21abebb71a359eaf5e48b80b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_sculptor.html#ac8baf0ca21abebb71a359eaf5e48b80b">limpaVoxels</a> ()</td></tr>
-<tr class="separator:ac8baf0ca21abebb71a359eaf5e48b80b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -122,7 +126,8 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:a6fd0157dcf17582f0edd5fddf157604e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A Classe <a class="el" href="class_sculptor.html" title="A Classe Sculptor.">Sculptor</a>. </p>
+<div class="textblock"><p>A classe <a class="el" href="class_sculptor.html" title="A classe Sculptor serve para criar a escultura de voxel.">Sculptor</a> serve para criar a escultura de voxel. </p>
+<p>Uma matriz 3D do tipo <a class="el" href="struct_voxel.html" title="A estrutura de dado Voxel serve para armazenar a cor e transparência de um voxel.">Voxel</a> será alocada dinamicamente para construir a escultura 3D. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a014e3ef5517bf0e9d9e14486b6ac6433"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a014e3ef5517bf0e9d9e14486b6ac6433">&#9670;&nbsp;</a></span>Sculptor()</h2>
@@ -156,6 +161,16 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p><a class="el" href="class_sculptor.html" title="A classe Sculptor serve para criar a escultura de voxel.">Sculptor</a> é o construtor da classe. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">_nx</td><td>é a dimensão de eixo x. </td></tr>
+    <tr><td class="paramname">_ny</td><td>é a dimensão de eixo y. </td></tr>
+    <tr><td class="paramname">_nz</td><td>é a dimensão de eixo z. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a8f159bf97458326f16d2e238e11be7ff"></a>
@@ -172,6 +187,8 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>~Sculptor é o destrutor da classe. </p>
 
 </div>
 </div>
@@ -208,22 +225,15 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="ac8baf0ca21abebb71a359eaf5e48b80b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8baf0ca21abebb71a359eaf5e48b80b">&#9670;&nbsp;</a></span>limpaVoxels()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Sculptor::limpaVoxels </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>cutVoxel desativa o voxel na posição \( (x, y, z) \) (fazendo isOn = false) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>é a posição x. </td></tr>
+    <tr><td class="paramname">y</td><td>é a posição y. </td></tr>
+    <tr><td class="paramname">z</td><td>é a posição z. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -258,6 +268,16 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>putVoxel ativa o voxel na posição \( (x, y, z) \) (fazendo isOn = true) e atribui ao mesmo a cor atual de desenho. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>é a posição x. </td></tr>
+    <tr><td class="paramname">y</td><td>é a posição y. </td></tr>
+    <tr><td class="paramname">z</td><td>é a posição z. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -299,6 +319,17 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>setColor define a cor atual de desenho. </p>
+<p>As variáveis que armazenam a cor rgba devem assumir valores entre 0 e 1. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">r</td><td>é a dosagem de vermelho(red). </td></tr>
+    <tr><td class="paramname">g</td><td>é a dosagem de verde(green). </td></tr>
+    <tr><td class="paramname">b</td><td>é a dosagem de azul(blue). </td></tr>
+    <tr><td class="paramname">alpha</td><td>é a dosagem de alpha(transparência). </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="aa8ed61fc7cae10c4d7a895330fe5e309"></a>
@@ -316,6 +347,14 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>writeOFF grava a escultura no formato OFF no arquivo filename. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">filename</td><td>é o nome do arquivo. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

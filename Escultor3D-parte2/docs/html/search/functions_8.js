@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['troca_119',['troca',['../sculptor_8cpp.html#a3d7faefa2dabfe41d54e47650592620e',1,'troca(int &amp;x, int &amp;y):&#160;sculptor.cpp'],['../sculptor_8h.html#a3d7faefa2dabfe41d54e47650592620e',1,'troca(int &amp;x, int &amp;y):&#160;sculptor.cpp']]]
+  ['writeoff_120',['writeOFF',['../class_sculptor.html#aa8ed61fc7cae10c4d7a895330fe5e309',1,'Sculptor']]]
 ];
