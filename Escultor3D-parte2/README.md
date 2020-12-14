@@ -4,4 +4,4 @@
 
 Escultura gerada a partir do arquivo "escultura.txt".
 
-<img src="img/saida-teste-projeto200.png">
+<img src="img/conteudo-arquivo.png">
