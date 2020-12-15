@@ -93,6 +93,13 @@ public:
    * @param alpha é a dosagem de alpha(transparência).
    */
   void setColor(int r, int g, int b, int alpha);
+  /**
+   * @brief getColor retorna as cores que foram definidas com setColor.
+   * @param x é a posição x.
+   * @param y é a posição y.
+   * @param z é a posição z.
+   * @return é um <vector> com as cores rgba.
+   */
   vector<int> getColor(int x, int y, int z);
   /**
    * @brief putVoxel ativa o voxel na posição \f$ (x, y, z) \f$ (fazendo isOn = true) e atribui ao mesmo a cor atual de desenho.
