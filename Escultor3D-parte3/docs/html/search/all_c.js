@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['sculptor_46',['Sculptor',['../class_sculptor.html',1,'Sculptor'],['../class_sculptor.html#a014e3ef5517bf0e9d9e14486b6ac6433',1,'Sculptor::Sculptor()']]],
+  ['sculptor_2ecpp_47',['sculptor.cpp',['../sculptor_8cpp.html',1,'']]],
+  ['sculptor_2eh_48',['sculptor.h',['../sculptor_8h.html',1,'']]],
+  ['setalpha_49',['setAlpha',['../class_color.html#ad6beba1caf206e0ec5fce26c5d2959bb',1,'Color::setAlpha()'],['../class_plotter.html#ab2c8f7026ae8c7e1c1f92b6e7740bfee',1,'Plotter::setAlpha()']]],
+  ['setaxisz_50',['setAxisZ',['../class_plotter.html#afc2343624aec895f82cc35fbfe8554bc',1,'Plotter']]],
+  ['setblue_51',['setBlue',['../class_color.html#af32b1856643a8069e564ef1c747d437f',1,'Color::setBlue()'],['../class_plotter.html#ab7555de256f5e67a7acdc46dc29a94d6',1,'Plotter::setBlue()']]],
+  ['setcolor_52',['setColor',['../class_sculptor.html#a76dea8f8b4a7f686a32223272b6e3b6a',1,'Sculptor']]],
+  ['setgreen_53',['setGreen',['../class_color.html#a26c72ebe676f4c14549abf4992e57a55',1,'Color::setGreen()'],['../class_plotter.html#a0fefa1b309d736a469b19fd617caea16',1,'Plotter::setGreen()']]],
+  ['setgridsize_54',['setGridSize',['../class_plotter.html#a83f482c93d3b9b920e5429bf840ba009',1,'Plotter']]],
+  ['setmenu_55',['setMenu',['../class_plotter.html#adb6a7d7bd2563cbde4b70c3bc5fbbaae',1,'Plotter']]],
+  ['setradius_56',['setRadius',['../class_plotter.html#a85157b92d1f35cef62db608a081ffe7b',1,'Plotter']]],
+  ['setred_57',['setRed',['../class_color.html#a083a1555ce699dadb9736adc85653507',1,'Color::setRed()'],['../class_plotter.html#a73c638567c169f1ac9e4d541010358ad',1,'Plotter::setRed()']]],
+  ['setrx_58',['setRX',['../class_plotter.html#acc8f102770642c6058dd9063f5611960',1,'Plotter']]],
+  ['setry_59',['setRY',['../class_plotter.html#ac78a6fa09cc8ea61846cb21ceb02c101',1,'Plotter']]],
+  ['setrz_60',['setRZ',['../class_plotter.html#a95be3630d4e8034caa9e17f7ace873ab',1,'Plotter']]],
+  ['setx1_61',['setX1',['../class_plotter.html#aff2e34eb507147cb68ff5cffbcb28c49',1,'Plotter']]],
+  ['sety1_62',['setY1',['../class_plotter.html#aa3a90fc622c0dac5bd231d33db56c431',1,'Plotter']]],
+  ['setz1_63',['setZ1',['../class_plotter.html#ace1b9224995d8f60c658eaa94660981e',1,'Plotter']]]
+];
