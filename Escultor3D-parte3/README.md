@@ -24,12 +24,19 @@ Após definimos as dimensões, obtemos:
 * `CutVoxel` Apaga um Voxel no Grid.
 * `PutBox` Desenha uma Caixa no Grid. Mova a barra deslizante `Box` para definir o valor de `z` (profundidade) da Caixa, é importante lembrar que na posição 0 a profundidade será nula e nada será desenhado.
 
+*Para desenhar a `Box` basta presionar o mouse num quadrado e arrastar até outro quadrado.*
 <img src="img/box-desenho.png">
 
 * `CutBox` Apaga uma Caixa no Grid. Mova a barra deslizante `Box` para definir o valor de `z` (profundidade) da Caixa, é importante lembrar que na posição 0 a profundidade será nula e nada será apagado.
 * `PutSphere` Desenha uma Esfera no Grid. Mova a barra deslizante `Sphere` para definir o valor de `r` (raio) da esfera.
+
+<img src="img/putsphere.png">
+
 * `CutSphere` Apaga uma Esfera no Grid. Mova a barra deslizante `Sphere` para definir o valor de `r` (raio) da esfera.
 * `PutEllipsoid` Desenha um Elipsoide no Grid. Mova a barra deslizante `Ellipsoid` para definir os valores dos semieixos `x`, `y` e `z` do Elipsoide.
+
+<img src="img/putellipsoid.png">
+
 * `CutEllipsoid` Apaga um Elipsoide no Grid. Mova a barra deslizante `Ellipsoid` para definir os valores dos semieixos `x`, `y` e `z` do Elipsoide.
 * `Exit` Fecha o programa.
 
