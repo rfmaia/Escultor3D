@@ -416,7 +416,7 @@
   </widget>
   <action name="actionAbreDim">
    <property name="text">
-    <string>Grid Dim</string>
+    <string>GridDim</string>
    </property>
    <property name="toolTip">
     <string>AbreDim</string>
